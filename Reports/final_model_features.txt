@@ -1,0 +1,19 @@
+Final Model: XGBoost (60-minute-ahead forecast)
+Features used:
+  - hour
+  - day_of_week
+  - month
+  - is_weekend
+  - hour_sin
+  - hour_cos
+  - month_sin
+  - month_cos
+  - gap_lag_1min
+  - gap_lag_5min
+  - gap_lag_15min
+  - gap_lag_30min
+  - gap_lag_60min
+  - gap_lag_1440min
+  - gap_roll_mean_60min
+  - gap_roll_std_60min
+  - gap_roll_mean_180min
